@@ -1,0 +1,33 @@
+/*simple selector*/
+h1,h2,h3,h4,h5,h6{
+    color: darkorange;
+}
+p{
+    color: darkcyan;
+    font: 22px;
+    
+}
+body{
+    font-size: 150%;
+    font-family: fantasy;
+}
+/*class selector*/
+p.first{
+    font: bolder 14pt Helvetica;
+    float: right;
+    border-style: dotted;
+    
+}
+/*id selector*/
+#ab{
+    
+}
+p.p1{
+   float: left; 
+}
+table{
+	padding: 2px;
+
+	
+	
+}
