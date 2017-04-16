@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head><title>Form demo</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body id="top">
+    <?php
+    if(empty($_GET['error']))
+    {
+        echo "<div style='background-color: blue'>".$_GET['error']."</div>";
+    }
+    ?>
+        <h2>Random Form</h2>
+        <hr/>
+        <form action="php/test.php" method="post">
+            <table border="border">
+            <caption>Login</caption>
+                <tr><td>Name :</td><td> <input type="text" name="txtname" id="txtname"></td></tr><br>
+                <tr><td>Password :</td><td> <input type="password" name="txtpwd" id="txtpwd"></td>
+            </table>
+            <br><input type="submit">
+            <input type="reset"><br>
+            <br><h3>Branch</h3>
+            <select name="branch" id="branch">
+                <option value="CSE">CSE</option>
+                <option value="ISE">ISE</option>
+                <option value="Mech">Mech</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+            </select>
+            <p><big>Semester</big><br>
+            Sem 1<input type="radio" name="sem" id="sem" value="1"><br>
+            Sem 2<input type="radio" name="sem" id="sem" value="2"><br>
+            Sem 3<input type="radio" name="sem" id="sem" value="3"><br>
+            Sem 4<input type="radio" name="sem" id="sem" value="4">
+            <br><br>
+            Address: <br>
+            <textarea name="textarea" rows="5" cols="30"></textarea>
+            <br>
+        </form>
+        <br>
+        <hr/>
+        <br><a href="Main.html">Back to first file</a>
+        <br><br>Copyright &copy; <a href="aboutme.html">Pej</a>, 2017.<br>
+        <br>
+    </body>
+</html>

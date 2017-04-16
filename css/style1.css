@@ -1,0 +1,15 @@
+p.p1{
+    border-style: dotted;
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    padding-top: 100px;
+    
+}
+p.p2{
+    border-style: solid;
+    background-color: blue;
+    color: yellow;
+    margin-top: 100px;
+    padding-left: 100px;
+}
